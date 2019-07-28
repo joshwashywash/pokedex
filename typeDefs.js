@@ -9,6 +9,6 @@ module.exports = gql`
 
   type Query {
     "Returns a list of all the Pokemon."
-    pokemon: [Pokemon!]!
+    pokemon(begin: Int, end: Int): [Pokemon!]!
   }
 `;

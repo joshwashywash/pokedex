@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
+/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@
 
 body {
   font-family: 'Press Start 2P', cursive;
+  line-height: 1;
   background: black;
-  color: #5e005e;
+  color: maroon;
 }
