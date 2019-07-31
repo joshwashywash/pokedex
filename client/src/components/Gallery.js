@@ -1,11 +1,25 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import {Query} from 'react-apollo';
 import {gql} from 'apollo-boost';
 
-import './Gallery.css';
-
 import Card from './Card.js';
+
+const Grid = styled.div`
+  display: grid;
+  grid-gap: ${props => props.theme.spacing};
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+`;
+
+// const observer = new IntersectionObserver((entries, observer) => {
+//   entries.forEach(({isIntersecting, target}) => {
+//     if (isIntersecting) {
+//       console.log(target);
+//       observer.unobserve(target);
+//     }
+//   });
+// });
 
 const Gallery = () => (
   <Query
@@ -24,11 +38,11 @@ const Gallery = () => (
       ) : error ? (
         'Error :('
       ) : (
-        <div className="gallery">
+        <Grid>
           {pokemon.map(({name}, i) => (
             <Card name={name} number={1 + i} key={i} />
           ))}
-        </div>
+        </Grid>
       )
     }
   </Query>
