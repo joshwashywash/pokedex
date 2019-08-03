@@ -8,18 +8,9 @@ import Card from './Card.js';
 
 const Grid = styled.div`
   display: grid;
-  grid-gap: ${props => props.theme.spacing};
+  grid-gap: ${({theme}) => theme.spacing};
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 `;
-
-// const observer = new IntersectionObserver((entries, observer) => {
-//   entries.forEach(({isIntersecting, target}) => {
-//     if (isIntersecting) {
-//       console.log(target);
-//       observer.unobserve(target);
-//     }
-//   });
-// });
 
 const Gallery = () => (
   <Query
