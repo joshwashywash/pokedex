@@ -4,12 +4,13 @@ import styled from 'styled-components';
 import {Query} from 'react-apollo';
 import {gql} from 'apollo-boost';
 
-import Card from './Card.js';
+import Card from './Card';
 
 const Grid = styled.div`
   display: grid;
-  grid-gap: ${({theme}) => theme.spacing};
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  place-items: center;
 `;
 
 const Gallery = () => (
@@ -31,7 +32,11 @@ const Gallery = () => (
       ) : (
         <Grid>
           {pokemon.map(({name}, i) => (
-            <Card name={name} number={1 + i} key={i} />
+            <Card
+              name={name}
+              number={(1 + i).toString().padStart(3, '0')}
+              key={i}
+            />
           ))}
         </Grid>
       )

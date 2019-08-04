@@ -1,44 +1,39 @@
 import React, {useEffect, useRef} from 'react';
+
 import styled from 'styled-components';
-
-const Figure = styled.figure`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-const setSrc = target => {
-  const {number = '0'} = target.dataset;
-  target.src = `https://www.serebii.net/pokearth/sprites/yellow/${number.padStart(
-    3,
-    '0'
-  )}.png`;
-};
 
 const observer = new IntersectionObserver(
   (entries, observer) => {
     entries.forEach(({isIntersecting, target}) => {
       if (isIntersecting) {
-        setSrc(target);
+        target.src = target.dataset.src;
         observer.unobserve(target);
       }
     });
   },
-  {rootMargin: '-60px'}
+  {rootMargin: '0px 0px -64px 0px'}
 );
+
+const Sprite = styled.img`
+  min-height: 128px;
+  min-width: 128px;
+`;
+
+const Figure = styled.figure`
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+`;
 
 const Card = ({name, number}) => {
   const ref = useRef(null);
-  useEffect(() => {
-    observer.observe(ref.current);
-  }, []);
+  useEffect(() => observer.observe(ref.current), []);
   return (
     <Figure>
-      <img
-        style={{minHeight: '60px', objectFit: 'contain'}}
+      <Sprite
+        data-src={`https://www.serebii.net/shuffle/pokemon/${number}.png`}
         ref={ref}
-        data-number={number}
-        alt=""
+        src=""
       />
       <figcaption>{name}</figcaption>
     </Figure>
