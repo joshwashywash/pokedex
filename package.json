@@ -4,22 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node",
-    "dev": "nodemon"
+    "watch:server": "nodemon --ignore client/",
+    "start:client": "npm start --prefix client",
+    "watch": "concurrently \"npm run watch:server\" \"npm run start:client\"",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshwashywash/pokemonQL.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joshua Oertel",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshwashywash/pokemonQL/issues"
+  },
+  "homepage": "https://github.com/joshwashywash/pokemonQL#readme",
   "dependencies": {
-    "apollo-server": "^2.8.0",
+    "apollo-server": "^2.8.1",
+    "concurrently": "^4.1.2",
     "graphql": "^14.4.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
-  },
-  "nodemonConfig": {
-    "ignore": [
-      "client"
-    ]
   }
 }

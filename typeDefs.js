@@ -1,4 +1,4 @@
-const {gql} = require('apollo-server-express');
+const {gql} = require('apollo-server');
 
 module.exports = gql`
   type Pokemon {
@@ -9,6 +9,6 @@ module.exports = gql`
 
   type Query {
     "Returns a list of all the Pokemon."
-    pokemon(begin: Int, end: Int): [Pokemon!]!
+    pokemon: [Pokemon!]!
   }
 `;

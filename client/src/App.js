@@ -1,18 +1,23 @@
 import React from 'react';
 
 import ApolloClient from 'apollo-boost';
-import {ApolloProvider} from 'react-apollo';
+import {ApolloProvider} from '@apollo/react-hooks';
 
-import Banner from './components/Banner';
-import Gallery from './components/Gallery';
+import theme from './theme';
+import {ThemeProvider} from 'styled-components';
+import {GlobalStyle, Gallery} from './components';
 
 const client = new ApolloClient();
 
-const App = () => (
-  <ApolloProvider client={client}>
-    <Banner title={'POKEDEX'} />
-    <Gallery />
-  </ApolloProvider>
-);
-
-export default App;
+export default function App() {
+  return (
+    <ThemeProvider theme={theme}>
+      <>
+        <GlobalStyle />
+        <ApolloProvider client={client}>
+          <Gallery />
+        </ApolloProvider>
+      </>
+    </ThemeProvider>
+  );
+}

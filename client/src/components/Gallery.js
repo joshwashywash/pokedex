@@ -1,47 +1,32 @@
 import React from 'react';
-import styled from 'styled-components';
 
-import {Query} from 'react-apollo';
+import {useQuery} from '@apollo/react-hooks';
 import {gql} from 'apollo-boost';
 
-import Card from './Card';
+import {Button, Grid, PopUp} from './basic';
+import {useToggle} from '../hooks';
 
-const Grid = styled.div`
-  display: grid;
-  grid-gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
-  place-items: center;
-`;
-
-const Gallery = () => (
-  <Query
-    query={gql`
-      query Pokemon($begin: Int, $end: Int) {
-        pokemon(begin: $begin, end: $end) {
-          name
-        }
+export const Gallery = () => {
+  const [showPopUp, toggle] = useToggle();
+  const {loading, error, data} = useQuery(gql`
+    {
+      pokemon {
+        name
       }
-    `}
-    variables={{begin: null, end: null}}
-  >
-    {({loading, error, data: {pokemon}}) =>
-      loading ? (
-        'Loading...'
-      ) : error ? (
-        'Error :('
-      ) : (
-        <Grid>
-          {pokemon.map(({name}, i) => (
-            <Card
-              name={name}
-              number={(1 + i).toString().padStart(3, '0')}
-              key={i}
-            />
-          ))}
-        </Grid>
-      )
     }
-  </Query>
-);
-
-export default Gallery;
+  `);
+  if (loading) return 'Loading';
+  if (error) return 'Error :(';
+  return (
+    <div>
+      <Grid>
+        {data.pokemon.map(({name}, i) => (
+          <Button onClick={toggle} key={i}>
+            {name}
+          </Button>
+        ))}
+      </Grid>
+      {showPopUp && <PopUp hide={toggle} />}
+    </div>
+  );
+};
