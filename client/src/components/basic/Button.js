@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const Button = styled.button`
   font: inherit;
-  background: ${({theme: {bg}}) => bg};
-  color: ${({theme: {fg}}) => fg};
+  background: ${({theme}) => theme.bg};
+  color: ${({theme}) => theme.fg};
   border: 2px solid;
-  border-radius: ${({theme: {spacing}}) => spacing};
-  padding: ${({theme: {spacing}}) => spacing};
+  border-radius: ${({theme}) => theme.spacing};
+  padding: ${({theme}) => theme.spacing};
   cursor: pointer;
   &:active {
     transform: scale(0.95);
@@ -14,7 +14,7 @@ export const Button = styled.button`
   &:focus,
   &:hover {
     outline: none;
-    color: ${({theme: {bg}}) => bg};
-    background: ${({theme: {fg}}) => fg};
+    color: ${({theme}) => theme.bg};
+    background: ${({theme}) => theme.fg};
   }
 `;

@@ -1,5 +1,6 @@
 [
   {
+    "dex": "001",
     "name": "Bulbasaur",
     "types": [
       "Grass",
@@ -7,6 +8,7 @@
     ]
   },
   {
+    "dex": "002",
     "name": "Ivysaur",
     "types": [
       "Grass",
@@ -14,6 +16,7 @@
     ]
   },
   {
+    "dex": "003",
     "name": "Venusaur",
     "types": [
       "Grass",
@@ -21,18 +24,21 @@
     ]
   },
   {
+    "dex": "004",
     "name": "Charmander",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "005",
     "name": "Charmeleon",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "006",
     "name": "Charizard",
     "types": [
       "Fire",
@@ -40,36 +46,42 @@
     ]
   },
   {
+    "dex": "007",
     "name": "Squirtle",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "008",
     "name": "Wartortle",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "009",
     "name": "Blastoise",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "010",
     "name": "Caterpie",
     "types": [
       "Bug"
     ]
   },
   {
+    "dex": "011",
     "name": "Metapod",
     "types": [
       "Bug"
     ]
   },
   {
+    "dex": "012",
     "name": "Butterfree",
     "types": [
       "Bug",
@@ -77,6 +89,7 @@
     ]
   },
   {
+    "dex": "013",
     "name": "Weedle",
     "types": [
       "Bug",
@@ -84,6 +97,7 @@
     ]
   },
   {
+    "dex": "014",
     "name": "Kakuna",
     "types": [
       "Bug",
@@ -91,6 +105,7 @@
     ]
   },
   {
+    "dex": "015",
     "name": "Beedrill",
     "types": [
       "Bug",
@@ -98,6 +113,7 @@
     ]
   },
   {
+    "dex": "016",
     "name": "Pidgey",
     "types": [
       "Normal",
@@ -105,6 +121,7 @@
     ]
   },
   {
+    "dex": "017",
     "name": "Pidgeotto",
     "types": [
       "Normal",
@@ -112,6 +129,7 @@
     ]
   },
   {
+    "dex": "018",
     "name": "Pidgeot",
     "types": [
       "Normal",
@@ -119,18 +137,21 @@
     ]
   },
   {
+    "dex": "019",
     "name": "Rattata",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "020",
     "name": "Raticate",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "021",
     "name": "Spearow",
     "types": [
       "Normal",
@@ -138,6 +159,7 @@
     ]
   },
   {
+    "dex": "022",
     "name": "Fearow",
     "types": [
       "Normal",
@@ -145,54 +167,63 @@
     ]
   },
   {
+    "dex": "023",
     "name": "Ekans",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "024",
     "name": "Arbok",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "025",
     "name": "Pikachu",
     "types": [
       "Electric"
     ]
   },
   {
+    "dex": "026",
     "name": "Raichu",
     "types": [
       "Electric"
     ]
   },
   {
+    "dex": "027",
     "name": "Sandshrew",
     "types": [
       "Ground"
     ]
   },
   {
+    "dex": "028",
     "name": "Sandslash",
     "types": [
       "Ground"
     ]
   },
   {
+    "dex": "029",
     "name": "Nidoran",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "030",
     "name": "Nidorina",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "031",
     "name": "Nidoqueen",
     "types": [
       "Poison",
@@ -200,18 +231,21 @@
     ]
   },
   {
+    "dex": "032",
     "name": "Nidoran",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "033",
     "name": "Nidorino",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "034",
     "name": "Nidoking",
     "types": [
       "Poison",
@@ -219,30 +253,35 @@
     ]
   },
   {
+    "dex": "035",
     "name": "Clefairy",
     "types": [
       "Fairy"
     ]
   },
   {
+    "dex": "036",
     "name": "Clefable",
     "types": [
       "Fairy"
     ]
   },
   {
+    "dex": "037",
     "name": "Vulpix",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "038",
     "name": "Ninetales",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "039",
     "name": "Jigglypuff",
     "types": [
       "Normal",
@@ -250,6 +289,7 @@
     ]
   },
   {
+    "dex": "040",
     "name": "Wigglytuff",
     "types": [
       "Normal",
@@ -257,6 +297,7 @@
     ]
   },
   {
+    "dex": "041",
     "name": "Zubat",
     "types": [
       "Poison",
@@ -264,6 +305,7 @@
     ]
   },
   {
+    "dex": "042",
     "name": "Golbat",
     "types": [
       "Poison",
@@ -271,6 +313,7 @@
     ]
   },
   {
+    "dex": "043",
     "name": "Oddish",
     "types": [
       "Grass",
@@ -278,6 +321,7 @@
     ]
   },
   {
+    "dex": "044",
     "name": "Gloom",
     "types": [
       "Grass",
@@ -285,6 +329,7 @@
     ]
   },
   {
+    "dex": "045",
     "name": "Vileplume",
     "types": [
       "Grass",
@@ -292,6 +337,7 @@
     ]
   },
   {
+    "dex": "046",
     "name": "Paras",
     "types": [
       "Bug",
@@ -299,6 +345,7 @@
     ]
   },
   {
+    "dex": "047",
     "name": "Parasect",
     "types": [
       "Bug",
@@ -306,6 +353,7 @@
     ]
   },
   {
+    "dex": "048",
     "name": "Venonat",
     "types": [
       "Bug",
@@ -313,6 +361,7 @@
     ]
   },
   {
+    "dex": "049",
     "name": "Venomoth",
     "types": [
       "Bug",
@@ -320,78 +369,91 @@
     ]
   },
   {
+    "dex": "050",
     "name": "Diglett",
     "types": [
       "Ground"
     ]
   },
   {
+    "dex": "051",
     "name": "Dugtrio",
     "types": [
       "Ground"
     ]
   },
   {
+    "dex": "052",
     "name": "Meowth",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "053",
     "name": "Persian",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "054",
     "name": "Psyduck",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "055",
     "name": "Golduck",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "056",
     "name": "Mankey",
     "types": [
       "Fighting"
     ]
   },
   {
+    "dex": "057",
     "name": "Primeape",
     "types": [
       "Fighting"
     ]
   },
   {
+    "dex": "058",
     "name": "Growlithe",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "059",
     "name": "Arcanine",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "060",
     "name": "Poliwag",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "061",
     "name": "Poliwhirl",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "062",
     "name": "Poliwrath",
     "types": [
       "Water",
@@ -399,42 +461,49 @@
     ]
   },
   {
+    "dex": "063",
     "name": "Abra",
     "types": [
       "Psychic"
     ]
   },
   {
+    "dex": "064",
     "name": "Kadabra",
     "types": [
       "Psychic"
     ]
   },
   {
+    "dex": "065",
     "name": "Alakazam",
     "types": [
       "Psychic"
     ]
   },
   {
+    "dex": "066",
     "name": "Machop",
     "types": [
       "Fighting"
     ]
   },
   {
+    "dex": "067",
     "name": "Machoke",
     "types": [
       "Fighting"
     ]
   },
   {
+    "dex": "068",
     "name": "Machamp",
     "types": [
       "Fighting"
     ]
   },
   {
+    "dex": "069",
     "name": "Bellsprout",
     "types": [
       "Grass",
@@ -442,6 +511,7 @@
     ]
   },
   {
+    "dex": "070",
     "name": "Weepinbell",
     "types": [
       "Grass",
@@ -449,6 +519,7 @@
     ]
   },
   {
+    "dex": "071",
     "name": "Victreebel",
     "types": [
       "Grass",
@@ -456,6 +527,7 @@
     ]
   },
   {
+    "dex": "072",
     "name": "Tentacool",
     "types": [
       "Water",
@@ -463,6 +535,7 @@
     ]
   },
   {
+    "dex": "073",
     "name": "Tentacruel",
     "types": [
       "Water",
@@ -470,6 +543,7 @@
     ]
   },
   {
+    "dex": "074",
     "name": "Geodude",
     "types": [
       "Rock",
@@ -477,6 +551,7 @@
     ]
   },
   {
+    "dex": "075",
     "name": "Graveler",
     "types": [
       "Rock",
@@ -484,6 +559,7 @@
     ]
   },
   {
+    "dex": "076",
     "name": "Golem",
     "types": [
       "Rock",
@@ -491,18 +567,21 @@
     ]
   },
   {
+    "dex": "077",
     "name": "Ponyta",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "078",
     "name": "Rapidash",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "079",
     "name": "Slowpoke",
     "types": [
       "Water",
@@ -510,6 +589,7 @@
     ]
   },
   {
+    "dex": "080",
     "name": "Slowbro",
     "types": [
       "Water",
@@ -517,6 +597,7 @@
     ]
   },
   {
+    "dex": "081",
     "name": "Magnemite",
     "types": [
       "Electric",
@@ -524,6 +605,7 @@
     ]
   },
   {
+    "dex": "082",
     "name": "Magneton",
     "types": [
       "Electric",
@@ -531,6 +613,7 @@
     ]
   },
   {
+    "dex": "083",
     "name": "Farfetch'd",
     "types": [
       "Normal",
@@ -538,6 +621,7 @@
     ]
   },
   {
+    "dex": "084",
     "name": "Doduo",
     "types": [
       "Normal",
@@ -545,6 +629,7 @@
     ]
   },
   {
+    "dex": "085",
     "name": "Dodrio",
     "types": [
       "Normal",
@@ -552,36 +637,42 @@
     ]
   },
   {
+    "dex": "086",
     "name": "Seel",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "087",
     "name": "Dewgong",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "088",
     "name": "Grimer",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "089",
     "name": "Muk",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "090",
     "name": "Shellder",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "091",
     "name": "Cloyster",
     "types": [
       "Water",
@@ -589,6 +680,7 @@
     ]
   },
   {
+    "dex": "092",
     "name": "Gastly",
     "types": [
       "Ghost",
@@ -596,6 +688,7 @@
     ]
   },
   {
+    "dex": "093",
     "name": "Haunter",
     "types": [
       "Ghost",
@@ -603,6 +696,7 @@
     ]
   },
   {
+    "dex": "094",
     "name": "Gengar",
     "types": [
       "Ghost",
@@ -610,6 +704,7 @@
     ]
   },
   {
+    "dex": "095",
     "name": "Onix",
     "types": [
       "Rock",
@@ -617,42 +712,49 @@
     ]
   },
   {
+    "dex": "096",
     "name": "Drowzee",
     "types": [
       "Psychic"
     ]
   },
   {
+    "dex": "097",
     "name": "Hypno",
     "types": [
       "Psychic"
     ]
   },
   {
+    "dex": "098",
     "name": "Krabby",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "099",
     "name": "Kingler",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "100",
     "name": "Voltorb",
     "types": [
       "Electric"
     ]
   },
   {
+    "dex": "101",
     "name": "Electrode",
     "types": [
       "Electric"
     ]
   },
   {
+    "dex": "102",
     "name": "Exeggcute",
     "types": [
       "Grass",
@@ -660,6 +762,7 @@
     ]
   },
   {
+    "dex": "103",
     "name": "Exeggutor",
     "types": [
       "Grass",
@@ -667,48 +770,56 @@
     ]
   },
   {
+    "dex": "104",
     "name": "Cubone",
     "types": [
       "Ground"
     ]
   },
   {
+    "dex": "105",
     "name": "Marowak",
     "types": [
       "Ground"
     ]
   },
   {
+    "dex": "106",
     "name": "Hitmonlee",
     "types": [
       "Fighting"
     ]
   },
   {
+    "dex": "107",
     "name": "Hitmonchan",
     "types": [
       "Fighting"
     ]
   },
   {
+    "dex": "108",
     "name": "Lickitung",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "109",
     "name": "Koffing",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "110",
     "name": "Weezing",
     "types": [
       "Poison"
     ]
   },
   {
+    "dex": "111",
     "name": "Rhyhorn",
     "types": [
       "Ground",
@@ -716,6 +827,7 @@
     ]
   },
   {
+    "dex": "112",
     "name": "Rhydon",
     "types": [
       "Ground",
@@ -723,54 +835,63 @@
     ]
   },
   {
+    "dex": "113",
     "name": "Chansey",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "114",
     "name": "Tangela",
     "types": [
       "Grass"
     ]
   },
   {
+    "dex": "115",
     "name": "Kangaskhan",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "116",
     "name": "Horsea",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "117",
     "name": "Seadra",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "118",
     "name": "Goldeen",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "119",
     "name": "Seaking",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "120",
     "name": "Staryu",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "121",
     "name": "Starmie",
     "types": [
       "Water",
@@ -778,12 +899,14 @@
     ]
   },
   {
+    "dex": "122",
     "name": "Mr. Mime",
     "types": [
       "Psychic"
     ]
   },
   {
+    "dex": "123",
     "name": "Scyther",
     "types": [
       "Bug",
@@ -791,6 +914,7 @@
     ]
   },
   {
+    "dex": "124",
     "name": "Jynx",
     "types": [
       "Ice",
@@ -798,36 +922,42 @@
     ]
   },
   {
+    "dex": "125",
     "name": "Electabuzz",
     "types": [
       "Electric"
     ]
   },
   {
+    "dex": "126",
     "name": "Magmar",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "127",
     "name": "Pinsir",
     "types": [
       "Bug"
     ]
   },
   {
+    "dex": "128",
     "name": "Tauros",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "129",
     "name": "Magikarp",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "130",
     "name": "Gyarados",
     "types": [
       "Water",
@@ -835,6 +965,7 @@
     ]
   },
   {
+    "dex": "131",
     "name": "Lapras",
     "types": [
       "Water",
@@ -842,42 +973,49 @@
     ]
   },
   {
+    "dex": "132",
     "name": "Ditto",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "133",
     "name": "Eevee",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "134",
     "name": "Vaporeon",
     "types": [
       "Water"
     ]
   },
   {
+    "dex": "135",
     "name": "Jolteon",
     "types": [
       "Electric"
     ]
   },
   {
+    "dex": "136",
     "name": "Flareon",
     "types": [
       "Fire"
     ]
   },
   {
+    "dex": "137",
     "name": "Porygon",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "138",
     "name": "Omanyte",
     "types": [
       "Rock",
@@ -885,6 +1023,7 @@
     ]
   },
   {
+    "dex": "139",
     "name": "Omastar",
     "types": [
       "Rock",
@@ -892,6 +1031,7 @@
     ]
   },
   {
+    "dex": "140",
     "name": "Kabuto",
     "types": [
       "Rock",
@@ -899,6 +1039,7 @@
     ]
   },
   {
+    "dex": "141",
     "name": "Kabutops",
     "types": [
       "Rock",
@@ -906,6 +1047,7 @@
     ]
   },
   {
+    "dex": "142",
     "name": "Aerodactyl",
     "types": [
       "Rock",
@@ -913,12 +1055,14 @@
     ]
   },
   {
+    "dex": "143",
     "name": "Snorlax",
     "types": [
       "Normal"
     ]
   },
   {
+    "dex": "144",
     "name": "Articuno",
     "types": [
       "Ice",
@@ -926,6 +1070,7 @@
     ]
   },
   {
+    "dex": "145",
     "name": "Zapdos",
     "types": [
       "Electric",
@@ -933,6 +1078,7 @@
     ]
   },
   {
+    "dex": "146",
     "name": "Moltres",
     "types": [
       "Fire",
@@ -940,18 +1086,21 @@
     ]
   },
   {
+    "dex": "147",
     "name": "Dratini",
     "types": [
       "Dragon"
     ]
   },
   {
+    "dex": "148",
     "name": "Dragonair",
     "types": [
       "Dragon"
     ]
   },
   {
+    "dex": "149",
     "name": "Dragonite",
     "types": [
       "Dragon",
@@ -959,12 +1108,14 @@
     ]
   },
   {
+    "dex": "150",
     "name": "Mewtwo",
     "types": [
       "Psychic"
     ]
   },
   {
+    "dex": "151",
     "name": "Mew",
     "types": [
       "Psychic"
