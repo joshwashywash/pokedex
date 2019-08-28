@@ -23,14 +23,14 @@ const ModalContent = styled.div`
 `;
 
 export const PopUp = ({hide, poke}) => {
-  const fade = useSpring({from: {opacity: 0}, opacity: 1});
+  const [fade, set] = useSpring(() => ({opacity: 0}));
   return createPortal(
     <Modal style={fade}>
       <ModalContent>
         <img
-          style={{minWidth: '475px', minHeight: '475px'}}
-          src={`https://assets.pokemon.com/assets/cms2/img/pokedex/full/${poke.dex}.png`}
           alt={poke.name}
+          src={`https://assets.pokemon.com/assets/cms2/img/pokedex/full/${poke.dex}.png`}
+          onLoad={() => set({opacity: 1})}
         />
         <h1>{poke.name}</h1>
         <Button onClick={hide}>Close</Button>
