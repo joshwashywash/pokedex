@@ -6,6 +6,12 @@ import {gql} from 'apollo-boost';
 import {Button, Grid} from './basic';
 import {PopUp} from './PopUp';
 
+import styled from 'styled-components';
+
+const P = styled.p`
+  text-align: center;
+`;
+
 export const Gallery = () => {
   const [showPopUp, toggle] = useState(false);
   const [poke, setPoke] = useState(null);
@@ -19,24 +25,22 @@ export const Gallery = () => {
     }
   `);
   return loading ? (
-    'Loading...'
+    <P>Loading...</P>
   ) : error ? (
-    'Error :('
+    <P>Error :(</P>
   ) : (
     <>
-      <Grid as="ul">
+      <Grid>
         {data.pokemon.map((poke, i) => (
-          <li key={i}>
-            <Button
-              style={{width: '100%'}}
-              onClick={() => {
-                setPoke(poke);
-                flip();
-              }}
-            >
-              {poke.name}
-            </Button>
-          </li>
+          <Button
+            key={i}
+            onClick={() => {
+              setPoke(poke);
+              flip();
+            }}
+          >
+            {poke.name}
+          </Button>
         ))}
       </Grid>
       {showPopUp && <PopUp hide={flip} poke={poke} />}
