@@ -1,29 +1,16 @@
 import React from 'react';
 import {createPortal} from 'react-dom';
 
-import {animated as a, useSpring} from 'react-spring';
+import {animated, useSpring} from 'react-spring';
 
-import {Button} from './basic/Button';
-import styled from 'styled-components';
+import {Button, Modal} from './basic';
 
-const Modal = styled(a.div)`
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  color: ${({theme}) => theme.bg};
-`;
+const AnimatedModal = animated(Modal);
 
 export const PopUp = ({hide, poke}) => {
   const [fade, set] = useSpring(() => ({opacity: 0}));
   return createPortal(
-    <Modal style={fade}>
+    <AnimatedModal style={fade}>
       <img
         style={{maxWidth: '100%'}}
         alt={poke.name}
@@ -33,7 +20,7 @@ export const PopUp = ({hide, poke}) => {
       <h1>{poke.name}</h1>
       <p>No. {poke.dex}</p>
       <Button onClick={hide}>Close</Button>
-    </Modal>,
+    </AnimatedModal>,
     document.getElementById('root')
   );
 };

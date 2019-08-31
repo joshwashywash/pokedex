@@ -7,7 +7,7 @@ const P = styled.p`
   margin-top: ${({theme}) => theme.spacing};
 `;
 
-export const Footer = ({content}) => (
+export default ({content}) => (
   <footer>
     <P>{content}</P>
   </footer>

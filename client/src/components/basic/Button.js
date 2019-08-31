@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Button = styled.button`
+export default styled.button`
   font: inherit;
   background: ${({theme}) => theme.bg};
   color: ${({theme}) => theme.fg};

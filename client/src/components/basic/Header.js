@@ -7,7 +7,7 @@ const H1 = styled.h1`
   margin-bottom: ${({theme}) => theme.spacing};
 `;
 
-export const Header = ({content}) => (
+export default ({content}) => (
   <header>
     <H1>{content}</H1>
   </header>

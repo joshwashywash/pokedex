@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 import {useQuery} from '@apollo/react-hooks';
-import {gql} from 'apollo-boost';
+import {GET_ALL_POKEMON} from '../queries';
 
 import {Button, Grid} from './basic';
 import {PopUp} from './PopUp';
@@ -12,22 +12,15 @@ const P = styled.p`
   text-align: center;
 `;
 
-export const Gallery = () => {
+export default () => {
   const [showPopUp, toggle] = useState(false);
   const [poke, setPoke] = useState(null);
   const flip = () => toggle(s => !s);
-  const {loading, error, data} = useQuery(gql`
-    {
-      pokemon {
-        name
-        dex
-      }
-    }
-  `);
+  const {loading, error, data} = useQuery(GET_ALL_POKEMON);
   return loading ? (
     <P>Loading...</P>
   ) : error ? (
-    <P>Error :(</P>
+    <P>Error :( msg: {error.message}</P>
   ) : (
     <>
       <Grid>
