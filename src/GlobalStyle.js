@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
 
   ::-webkit-scrollbar {
     background: ${props => props.theme.purple};
+    width: 1em;
   }
 
   ::-webkit-scrollbar-thumb {
